@@ -23,7 +23,7 @@ header{
     text-align: center;
     color:  white;
     background-image: url("../images/hero2.jpg");
-    background-color: rgb(15, 128, 128);
+    background-color: rgb(31, 39, 39);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,5 +60,41 @@ nav #link_background :hover{
 }
 p .spann :hover{
     color: rgb(238, 237, 231);
+    text-decoration: underline;
+}
+.vote_of_thanks{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(6, 66, 86);
+    border-top: 5px solid  rgb(244, 210, 16);
+    color: rgb(244, 210, 16);  
+}
+footer h3{
+    color: white;
+    margin-top: 0%;
+}
+footer p{
+    margin-bottom: 5px;
+}
+main div{
+    padding: 400px;
+    background-color: white;
+}
+footer nav{
+    margin: 0 auto;
+}
+footer nav a{
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    padding: 7px 5px;
+    margin: 0 5px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    border-radius: 25% 25%;
+}
+footer nav :hover{
+    color: blue;
     text-decoration: underline;
 }
