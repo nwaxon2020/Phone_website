@@ -65,9 +65,6 @@ p .spann :hover{
 }
 .vote_of_thanks{
     text-align: center;
-    padding: 10px;
-    background-color: rgb(6, 66, 86);
-    border-top: 5px solid  rgb(244, 210, 16);
     color: rgb(244, 210, 16);  
 }
 footer h3{
@@ -99,4 +96,9 @@ footer nav a{
 footer nav :hover{
     color: blue;
     text-decoration: underline;
+}
+footer{
+    padding: 25px;
+    background-color: rgb(6, 66, 86);
+    border-top: 5px solid  rgb(244, 210, 16);
 }
