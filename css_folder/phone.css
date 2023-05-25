@@ -14,7 +14,7 @@ body{
 }
 
 header{  
-    background-color: rgb(6, 66, 86);  
+    background-color: #264653;  
 }
 .headings{
     padding-top: 80px;
@@ -24,31 +24,31 @@ header{
     text-align: center;
     color:  white;
     background-image: url("../images/hero2.jpg");
-    background-color: rgb(4, 119, 119);
+    background-color:#2A9D8F;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 50%;
 }
 .title{
-    color:  rgb(244, 210, 16);
+    color: #E9C46A;
 }
 .links a{
-    color:  rgb(244, 210, 16);
+    color: #E9C46A;
     
     font-weight: bolder;
     margin-left: 7px;
     text-decoration: none;
 }
 .links{
-    border-bottom: 2px solid  rgb(244, 210, 16);
+    border-bottom: 2px solid  #E9C46A;
 }
 #link_background{
     background-color: black;
     display: inline;
     padding-top: 15px;
     padding-right: 10px;
-    border: 1px solid  rgb(244, 210, 16);
+    border: 1px solid  #E9C46A;
     margin: 20px;   
 }
 nav #link_background :hover{
@@ -56,7 +56,7 @@ nav #link_background :hover{
     text-decoration: underline;
 }
 .spann a {
-    color: rgb(249, 209, 9);
+    color: #E9C46A;
     text-decoration: none;
 }
 p .spann :hover{
@@ -65,7 +65,7 @@ p .spann :hover{
 }
 .vote_of_thanks{
     text-align: center;
-    color: rgb(244, 210, 16);  
+    color: #E9C46A;  
 }
 footer h3{
     color: white;
@@ -99,6 +99,6 @@ footer nav :hover{
 }
 footer{
     padding: 25px;
-    background-color: rgb(6, 66, 86);
-    border-top: 5px solid  rgb(244, 210, 16);
+    background-color: #264653;
+    border-top: 5px solid  #E9C46A;
 }
