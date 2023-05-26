@@ -1,11 +1,11 @@
 body{
     margin: 0;
     font-family: system-ui;
-    background-color: rgb(18, 19, 17);
+    background-color: rgb(15, 107, 93);
 }
 #contents{
     background-color: rgb(118, 120, 117);
-    margin: 0 2.5%;
+    margin: 0 2%;
     margin-bottom: 0%;
 }
 #logo{
@@ -13,8 +13,25 @@ body{
     margin: 20px;
 }
 
-header{  
-    background-color: #264653;  
+#static{  
+    background-color: #264653;
+    background-image: url("../images/hero2.jpg");
+    background-color:#2A9D8F;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50%;
+    margin-bottom: 2px;
+}
+#sticky{
+    position: sticky;
+    top: 0px;
+    background-color: #264653;
+    background-image: url("../images/hero2.jpg");
+    background-color:#2A9D8F;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .headings{
     padding-top: 80px;
@@ -28,32 +45,41 @@ header{
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 50%;
+    background-position: center 70%;
+    margin-bottom: 2px;
+}
+.intros{
+    margin: 0.5rem;
 }
 .title{
     color: #E9C46A;
 }
 .links a{
-    color: #E9C46A;
-    
+    color: white;
     font-weight: bolder;
     margin-left: 7px;
     text-decoration: none;
 }
 .links{
-    border-bottom: 2px solid  #E9C46A;
+    border-bottom: 2px solid  #E9C46A;   
+    background-color: rgba(0,0,0,.3);
+    background-blend-mode: multiply;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #link_background{
-    background-color: black;
-    display: inline;
-    padding-top: 15px;
-    padding-right: 10px;
-    border: 1px solid  #E9C46A;
-    margin: 20px;   
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom:3px ;
+    letter-spacing: 2px; 
+    word-spacing: 40px;
 }
 nav #link_background :hover{
-    color: white;
+    color: #E9C46A;
     text-decoration: underline;
+    transform: scale(1.1);
 }
 .spann a {
     color: #E9C46A;
@@ -65,7 +91,9 @@ p .spann :hover{
 }
 .vote_of_thanks{
     text-align: center;
-    color: #E9C46A;  
+    color: #E9C46A;
+    /* background-color: rgba(0,0,0,.2); */
+    padding: 25px;  
 }
 footer h3{
     color: white;
@@ -78,6 +106,7 @@ main div{
     padding-bottom: 450px;
     background-color: white;
     width: 100%;
+    height: 100vh;
 }
 footer nav{
     margin: 0 auto;
@@ -98,7 +127,9 @@ footer nav :hover{
     text-decoration: underline;
 }
 footer{
-    padding: 25px;
-    background-color: #264653;
+    /* padding: 25px; */
     border-top: 5px solid  #E9C46A;
+    /* background-color: #264653; */
+    background-color: rgba(0,0,0,.2);
+    margin: 0;
 }
