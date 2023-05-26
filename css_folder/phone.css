@@ -42,6 +42,7 @@ body{
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
+    user-select: none;
 }
 .headings{
     padding-top: 60px;
@@ -83,6 +84,7 @@ body{
     align-items: center;
     position: sticky;
     top: 5px;
+    user-select: none;
 }
 #link_background{
     font-size: 20PX;
@@ -112,7 +114,8 @@ p .spann :hover{
 .vote_of_thanks{
     text-align: center;
     color: #E9C46A;
-    padding: 25px;  
+    padding: 25px;
+    user-select: none;  
 }
 footer h3{
     color: white;
