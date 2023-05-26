@@ -16,13 +16,13 @@ body{
 }
 #logo{
     width: 80%;
-    margin: 20px;
+    margin: 20%;
     grid-column: 1/2;
 }
 .title{
     color: #E9C46A;
     grid-column: 2/3;
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 5px;
 }
 #static{  
@@ -36,8 +36,6 @@ body{
     margin-bottom: 2px;
 }
 #sticky{
-    position: sticky;
-    top: 0px;
     background-color: #264653;
     background-image: url("../images/hero2.jpg");
     background-color:#2A9D8F;
@@ -74,19 +72,20 @@ body{
 }
 .links{
     border-bottom: 2px solid  #E9C46A;   
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(1, 23, 10, 0.9);
     background-blend-mode: multiply;
-    margin-bottom: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 5px;
 }
 #link_background{
-    font-size: 25px;
+    font-size: 20PX;
     padding-top: 30px;
     padding-bottom:3px ;
     letter-spacing: 2px; 
-    word-spacing: 35px;
+    word-spacing: 1.5rem;
 }
 nav #link_background :hover{
     text-decoration: underline;
