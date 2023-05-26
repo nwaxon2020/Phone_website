@@ -91,7 +91,10 @@ body{
 nav #link_background :hover{
     text-decoration: underline;
     transform: scale(1.1);
-    font-weight: lighter ;
+    padding-left: 10px ;
+    padding-right: 10px;
+    padding-top: 30px;
+    background-color: rgba(0,0,0,.2);
 }
 .spann a {
     color: #E9C46A;
@@ -104,7 +107,6 @@ p .spann :hover{
 .vote_of_thanks{
     text-align: center;
     color: #E9C46A;
-    /* background-color: rgba(0,0,0,.2); */
     padding: 25px;  
 }
 footer h3{
