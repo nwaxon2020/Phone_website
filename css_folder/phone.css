@@ -23,6 +23,7 @@ body{
     color: #E9C46A;
     grid-column: 2/3;
     font-size: 50px;
+    margin-left: 5px;
 }
 #static{  
     background-color: #264653;
