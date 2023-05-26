@@ -95,6 +95,7 @@ nav #link_background :hover{
     padding-right: 10px;
     padding-top: 30px;
     background-color: rgba(0,0,0,.2);
+    font-weight: lighter;
 }
 .spann a {
     color: #E9C46A;
