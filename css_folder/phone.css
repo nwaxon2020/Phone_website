@@ -8,11 +8,22 @@ body{
     margin: 0 2%;
     margin-bottom: 0%;
 }
-#logo{
-    width: 10%;
-    margin: 20px;
+#page-title{
+    display: grid;
+    grid-template-columns: 150px auto;
+    justify-content: start;
+    align-items: center;
 }
-
+#logo{
+    width: 80%;
+    margin: 20px;
+    grid-column: 1/2;
+}
+.title{
+    color: #E9C46A;
+    grid-column: 2/3;
+    font-size: 50px;
+}
 #static{  
     background-color: #264653;
     background-image: url("../images/hero2.jpg");
@@ -48,11 +59,11 @@ body{
     background-position: center 70%;
     margin-bottom: 2px;
 }
+.headings h1{
+    color: #E9C46A
+}
 .intros{
     margin: 0.5rem;
-}
-.title{
-    color: #E9C46A;
 }
 .links a{
     color: white;
@@ -74,12 +85,12 @@ body{
     padding-top: 30px;
     padding-bottom:3px ;
     letter-spacing: 2px; 
-    word-spacing: 40px;
+    word-spacing: 35px;
 }
 nav #link_background :hover{
-    color: #E9C46A;
     text-decoration: underline;
     transform: scale(1.1);
+    font-weight: lighter ;
 }
 .spann a {
     color: #E9C46A;
@@ -127,9 +138,7 @@ footer nav :hover{
     text-decoration: underline;
 }
 footer{
-    /* padding: 25px; */
     border-top: 5px solid  #E9C46A;
-    /* background-color: #264653; */
     background-color: rgba(0,0,0,.2);
     margin: 0;
 }
