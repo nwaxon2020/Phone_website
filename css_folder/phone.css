@@ -83,7 +83,7 @@ body{
     justify-content: center;
     align-items: center;
     position: sticky;
-    top: 5px;
+    top: 0px;
     user-select: none;
 }
 #link_background{
